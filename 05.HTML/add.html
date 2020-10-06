@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<H1>Заполните анкету</H1>
+<form id="form1" method="get" action="http://fe.it-academy.by/TestForm.php">
+    <fieldset>
+        <legend>Личные данные</legend>
+        <input type="text"
+               name="Fam"
+               maxlength="25"
+               pattern="^[А-Яа-яЁё]+$"
+               placeholder="Фамилия"
+               required
+               autofocus><br/>
+        <input type="text"
+               name="Nam"
+               maxlength="20"
+               pattern="^[А-Яа-яЁё]+$"
+               placeholder="Имя"
+               required><br/>
+        <input type="text"
+               name="Ot"
+               maxlength="24"
+               pattern="^[А-Яа-яЁё]+$"
+               placeholder="Отчество"
+               required>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <input type="text"
+                   name="series"
+                   maxlength="2"
+                   minlength="2"
+                   pattern="[A-Z]{2}"
+                   placeholder="AA"
+                   required><br/>
+            <input type="text"
+                   name="Num"
+                   pattern="[0-9]{7}"
+                   placeholder="1234567"
+                   required>
+        </fieldset>
+        <fieldset>
+            <legend>Дата рождения</legend>
+            <input type="text"
+                   name="year"
+                   pattern="[0-9]{4}"
+                   placeholder="2000"><br/>
+
+
+            <select name="month" >
+                <option value="1" selected>Январь</option>
+                <option value="2">Февраль</option>
+                <option value="3">Март</option>
+                <option value="4">Апрель</option>
+                <option value="5">Май</option>
+                <option value="6">Июнь</option>
+                <option value="7">Июль</option>
+                <option value="8">Август</option>
+                <option value="9">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="0" >Декабрь</option>
+            </select>    <br/>
+
+            <input type="number"
+                   name="number"
+                   min="1"
+                   max="31">
+        </fieldset>
+        <select name="nationality" required>
+            <option value="1" selected>РБ</option>
+            <option value="2">РФ</option>
+            <option value="3">PL</option>
+            <option value="4">LT</option>
+            <option value="5">LV</option>
+            <option value="6">FR</option>
+            <option value="7">DE</option>
+            <option value="8">ES</option>
+            <option value="9">SK</option>
+            <option value="10">IT</option>
+            <option value="11">УКР</option>
+        </select>    <br/>
+        <P>Адрес:</P>
+        <textarea name="address"
+                  cols="20"
+                  rows="1"> </textarea><br/>
+    </fieldset>
+    <fieldset>
+        <legend>Интересы</legend>
+        <fieldset>
+            <legend>Хобби</legend>
+        <div>
+            <label><input type="checkbox" name="hobby[fishing]"><small>Рыбалка</small></label>
+            <br />
+            <label><input type="checkbox" name="hobby[astronomy]"><small>Астрономия</small></label>
+            <br />
+            <label><input type="checkbox" name="hobby[diving]"><small>Дайвинг</small></label>
+            <br />
+            <label><input type="checkbox" name="hobby[brand]"><small>Марки</small></label>
+            <br />
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Домашние животные(возможность выбора нескольких вариантов):</legend>
+            <select name="animals[ ]" multiple="multiple" size="12">
+                <optgroup label="Попугаи">
+                    <option value="1">Волнистый</option>
+                    <option value="2">Ара</option>
+                    <option value="3">Неразлучник</option>
+                </optgroup>
+                <optgroup label="Рыба">
+                    <option value="1">Караси</option>
+                    <option value="2">Окуни</option>
+                    <option value="3">Осётр</option>
+                </optgroup>
+                <optgroup label="Птицы">
+                    <option value="1">Стая ворон</option>
+                    <option value="2">Аист</option>
+                    <option value="3">Археоптерикс</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        </fieldset>
+    <fieldset>
+        <legend>Данные для входа и восстановления пароля</legend>
+        <input type="text"
+               name="login"
+               maxlength="20"
+               pattern="[A-Za-z]{5,}"
+               placeholder="Логин"
+               required><br/>
+        <input type="password"
+               name="parol"
+               maxlength="20"
+               pattern="[A-Za-z]{10,}"
+               placeholder="Пароль"
+               autocomplete="new-password"
+               required><br/>
+    </fieldset>
+
+    <fieldset>
+        <legend>Координаты:</legend>
+        <input type="email"
+               name="post"
+               placeholder="введите адрес почты"
+               required><br/>
+        <input type="url"
+               name="url"
+               maxlength="20"
+               placeholder="введите адрес сайта"
+               required><br/>
+    </fieldset>
+
+    <fieldset>
+        <legend>Цифры</legend>
+        <input type="number"
+               min="-2.5"
+               max="2.5"
+               step="0.1"> <br/>
+
+        <input type="range"
+               min="1"
+               max="10">
+    </fieldset>
+
+    <fieldset>
+        <legend>Кнопки управления</legend>
+        <input type="submit" value="Отправить">
+        <input type="submit" value="Сбросить" readonly>
+    </fieldset>
+
+</form>
+</body>
+</html>
