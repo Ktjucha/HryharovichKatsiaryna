@@ -1,0 +1,73 @@
+a {
+    background-repeat: no-repeat;
+    height: 195px;
+    width: 143px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+div.content { width: 10000px }
+a.piki2{  background-image: url(cards.png); background-position: left top;}
+a.tref2{  background-image: url(cards.png); background-position: -143px top;}
+a.bubi2{  background-image: url(cards.png); background-position: -285px top;}
+a.cher2{  background-image: url(cards.png); background-position: -428px top;}
+
+a.piki3{  background-image: url(cards.png); background-position: left -195px;}
+a.tref3{  background-image: url(cards.png); background-position: -143px -195px;}
+a.bubi3{  background-image: url(cards.png); background-position: -285px -195px;}
+a.cher3{  background-image: url(cards.png); background-position: -428px -195px;}
+
+a.piki4{  background-image: url(cards.png); background-position: left -390px;}
+a.tref4{  background-image: url(cards.png); background-position: -143px -390px;}
+a.bubi4{  background-image: url(cards.png); background-position: -285px -390px;}
+a.cher4{  background-image: url(cards.png); background-position: -428px -390px;}
+
+a.piki5{  background-image: url(cards.png); background-position: left -590px;}
+a.tref5{  background-image: url(cards.png); background-position: -143px -590px;}
+a.bubi5{  background-image: url(cards.png); background-position: -285px -590px;}
+a.cher5{  background-image: url(cards.png); background-position: -428px -590px;}
+
+a.piki6{  background-image: url(cards.png); background-position: left -788px;}
+a.tref6{  background-image: url(cards.png); background-position: -143px -788px;}
+a.bubi6{  background-image: url(cards.png); background-position: -285px -788px;}
+a.cher6{  background-image: url(cards.png); background-position: -428px -788px;}
+
+a.piki7{  background-image: url(cards.png); background-position: left -986px;}
+a.tref7{  background-image: url(cards.png); background-position: -143px -986px;}
+a.bubi7{  background-image: url(cards.png); background-position: -285px -986px;}
+a.cher7{  background-image: url(cards.png); background-position: -428px -986px;}
+
+a.piki8{  background-image: url(cards.png); background-position: left -1184px;}
+a.tref8{  background-image: url(cards.png); background-position: -143px -1184px;}
+a.bubi8{  background-image: url(cards.png); background-position: -285px -1184px;}
+a.cher8{  background-image: url(cards.png); background-position: -428px -1184px;}
+
+a.piki9{  background-image: url(cards.png); background-position: left -1383px;}
+a.tref9{  background-image: url(cards.png); background-position: -143px -1383px;}
+a.bubi9{  background-image: url(cards.png); background-position: -285px -1383px;}
+a.cher9{  background-image: url(cards.png); background-position: -428px -1383px;}
+
+a.pikiV{  background-image: url(cards.png); background-position: left -1583px;}
+a.trefV{  background-image: url(cards.png); background-position: -143px -1583px;}
+a.bubiV{  background-image: url(cards.png); background-position: -285px -1583px;}
+a.cherV{  background-image: url(cards.png); background-position: -428px -1583px;}
+
+a.pikiD{  background-image: url(cards.png); background-position: left -1782px;}
+a.trefD{  background-image: url(cards.png); background-position: -143px -1782px;}
+a.bubiD{  background-image: url(cards.png); background-position: -285px -1782px;}
+a.cherD{  background-image: url(cards.png); background-position: -428px -1782px;}
+
+a.pikiK{  background-image: url(cards.png); background-position: left -1982px;}
+a.trefK{  background-image: url(cards.png); background-position: -143px -1982px;}
+a.bubiK{  background-image: url(cards.png); background-position: -285px -1982px;}
+a.cherK{  background-image: url(cards.png); background-position: -428px -1982px;}
+
+a.pikiT{  background-image: url(cards.png); background-position: left -2180px;}
+a.trefT{  background-image: url(cards.png); background-position: -143px -2180px;}
+a.bubiT{  background-image: url(cards.png); background-position: -285px -2180px;}
+a.cherT{  background-image: url(cards.png); background-position: -428px -2180px;}
+
+a.Joker1{  background-image: url(cards.png); background-position: left -2389px;}
+a.Joker2{  background-image: url(cards.png); background-position: -285px -2389px;}
