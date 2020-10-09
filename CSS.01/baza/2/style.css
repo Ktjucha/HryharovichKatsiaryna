@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */
+    font-size: 100%;
+    text-align: right;
+}
+header{
+    float: right;
+    text-align: right;
+    margin: 0 1.5%;
+    width: 100%;
+}
+
+h3{
+    font-family: "Monotype Corsiva", Cursive , serif;
+    font-weight: 600;
+    text-decoration: underline
+
+}
+
+article{
+    text-indent: 1.5em;
+    font-family: "Monotype Corsiva", Cursive , serif;
+}
