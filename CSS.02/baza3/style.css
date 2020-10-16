@@ -1,0 +1,32 @@
+.left{
+    padding: 1px;
+    width: 15em;
+    background-color: darkgray;
+    float: left;
+}
+
+.block2{
+    padding: 1px;
+    background-color: dimgrey;
+    margin-bottom: 2em;
+    width: auto;
+}
+.center{
+    display: flex
+}
+
+.right{
+
+    display: inline-block;
+    float: initial;
+}
+.imgpost{
+    position: relative;
+    text-align: end;
+}
+.end{
+    background-color: #eeeeee;
+    width: 100%;
+    clear: both;
+    padding: 1px;
+}
