@@ -13,22 +13,20 @@
 }
 #navigation ul {
     position: absolute;
-    z-index: 5;
+    z-index: 2;
     display: none;
 }
 #navigation li:hover ul {
     display: block;
-
 }
 #navigation li {
+    transition: all 1s ease-in-out;
     display: table-cell;
     text-align: center;
     width: 10%;
 }
 #navigation ul li {
     display: block;
-    text-align: left;
-
 }
 
 #navigation a {
@@ -40,7 +38,6 @@
 }
 #navigation ul a {
     padding: 3px 15px;
-
 }
 #navigation li:hover {
     background: rgb(120, 137, 148);
@@ -85,8 +82,8 @@
 #navigation  ul li ul {
     visibility: hidden;
     opacity: 0;
+    transition: all 1s ease-in-out;
     position: absolute;
-    transition: all 0.9s ease;
     margin-top: 1rem;
     left: 145px;
     display: none;
@@ -98,6 +95,7 @@
     ul li ul:hover {
         visibility: visible;
         opacity: 1;
+        transition: all 1s ease-in-out;
         display: block;
     }
 }

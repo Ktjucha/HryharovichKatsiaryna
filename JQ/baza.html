@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="formm" method="get" action="http://fe.it-academy.by/TestForm.php">
+    <fieldset>
+        <legend>Авторизируйтесь</legend>
+<input name="pd1" type="password" size="25"  maxlength="30" id="1"  required> <small >*Пароль</small></br>
+<input name="pd2" type="password" size="25"  maxlength="30"  id="2"  required> <small >*Пароль</small></br>
+    </fieldset>
+</form>
+<button>проверим</button>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/styles.css?<?=time()?>">
+<script src="js/scripts.js?<?=time()?>"></script>
+<script type="text/javascript">
+    $("button").click(function () {
+        if($("pd1").text() === $("pd2").text())
+        {
+            alert("строки равны");
+        }
+    });
+</script>
+
+</body>
+</html>
